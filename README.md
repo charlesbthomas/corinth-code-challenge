@@ -1,45 +1,28 @@
+# StarWarsWiki
 
----
+tldr; `yarn start` to run the react build and proxy server
 
-This is LifeWay IT's code challenge given to full stack software engineering candidates! Interested in working with our team? Check out open positions [here](http://tech.lifeway.com/)
+![Example Screenshot](./example_screenshot.JPG)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-### Premise
+In the project directory, you can run:
 
-The premise of this challenge is to create a "profile page" for various star wars characters in the Star Wars universe.
+### `yarn start`
 
-### Specification
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Create a simple single page application that provides the following features:
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-  * A search bar that takes the characters name as input.
-  * A profile containing the following sectional information for the searched character:
-    * About Me (height, weight, hair color, date of birth, species information)
-    * Films Appeared In
-    * Starships Flown
+### `yarn build`
 
-Use [SWAPI](https://swapi.dev/) to obtain all the star wars data that you need.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Use whatever languages or tech you want -- we are looking for clean, testable code that demonstrates usage of common design patterns and best practices above all else. 
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-#### BUT
-
-You will get bonus points if...
-
-* Basic react.js understanding is demonstrated...
-* A basic "gateway" api is created to consolidate and proxy calls to SWAPI...
-* You add cool and creative features not included in the spec...
-
----
-
-### Submissions
-
-Please put your submission in a public github repository to share.
-
----
-
-
-<div class="footer">
-  <img src="http://lwtech.staging.wpengine.com/wp-content/uploads/2014/01/lifeway-it-logo-gray-265x73.gif" alt="Smiley face" width="150" height="42">
-</div>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
