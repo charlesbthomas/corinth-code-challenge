@@ -1,6 +1,6 @@
 # StarWarsWiki
 
-tldr; `yarn start` to run the react build and proxy server
+tldr; `yarn install` then `yarn start` to run the react build and proxy server
 
 ![Example Screenshot](./example_screenshot.JPG)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
