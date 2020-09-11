@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Search, Profile } from "./components";
+import "semantic-ui-css/semantic.min.css";
+import "./App.css";
+import { Divider } from "semantic-ui-react";
 
 function App() {
+  const [selectedPerson, setPerson] = React.useState(null);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img
+        alt="star wars logo"
+        className="app-logo"
+        src="https://pngimg.com/uploads/star_wars_logo/star_wars_logo_PNG14.png"
+      />
+      <h2 className="subtitle">Character Lookup</h2>
+      <Search setPerson={setPerson} />
+      <div className="lightsaber" />
+      <Profile person={selectedPerson} />
     </div>
   );
 }
